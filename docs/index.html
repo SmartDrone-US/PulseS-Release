@@ -1,1 +1,216 @@
-<html lang="en"><head>    <meta charset="utf-8" />    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <title>        Synchro    </title>    <style>body{    padding:5%;    display:flex;    font-family: Segoe UI;    line-height: normal;    color:#333333;    font-size:15px;}.t{    border:1px solid red;}.left-col{    flex: 0 0 200px;}.right-col{    flex: 1 1 30px;    max-width:650px;}img{    width:200px;    height:200px;    border: 1px solid #D2D2D2;}.additional-links-title{    margin-top:50px;    margin-bottom:20px;}.lg{    font-size:20px;}.xl{    font-size:34px;}button{    background-color:#0078D4;    color:#FFFFFF;    text-align:center;    width:150px;    height:40px;    border:none;    outline:none;    cursor: pointer;}a{    color: #0067B8;    text-decoration:none;    cursor: pointer;}.dark-blue{    color: #0078D4}.mb-24{    margin-bottom:24px;}.mr-28{    margin-right:28px;}.mb-12{    margin-bottom:12px;}.mb-28{    margin-bottom:28;}.key{    font-weight: bold;    margin-right:24px;    }.value{    flex: 0 0 }.info-row{    display:flex;}.info-row > div{    flex: 0 0 250px;}.mr-24{    margin-right:24px;}.alinks > a{    margin-bottom:15px;    display:block;}@font-face {    font-family: 'FabricMDL2Icons';    src: url('data:application/octet-stream;base64,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') format('truetype');  }    .ms-Icon {    -moz-osx-font-smoothing: grayscale;    -webkit-font-smoothing: antialiased;    font-family: 'FabricMDL2Icons';    font-style: normal;    font-weight: normal;    speak: none;  }    .ms-Icon--ChevronDown:before{ content: "\E70D"; }  .ms-Icon--ChevronUp:before{ content: "\E70E"; }  .ms-Icon--ChevronRight:before { content: "\E76C"; }  .alinks{    max-height:0px;    transition: max-height .2s ease-out;    overflow:hidden;  }  input#achk:checked + .alinks{    height:auto;    max-height:400px;    transition: max-height .5s ease-in !important;  }  .sm{      font-size:10px;  }  label{      cursor: pointer;  }  .dlbuttons > a{   margin-right: 5px;  }  .app-image{        background-color:transparent;  }</style></head><body class="body">    <div class="left-col mr-28">        <img alt='application image' class='app-image' src='data:image/png;base64,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'>        <div class="lg additional-links-title">            <label for="achk">                    Additional Links                    <i class="ms-Icon--ChevronDown ms-Icon sm"></i>            </label>        </div>        <input type="checkbox" id="achk" style="display:none;">        <div class="alinks">            <a href='https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/SynchroInstall_0.0.29.0_x86_x64.cer'>Publisher Certificate</a><a href='https://smartdrone-us.github.io/PulseS-Release/SynchroInstall.appinstaller'>App Installer File</a><a href='https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/SynchroInstall_0.0.29.0_x86_x64.msixbundle'>Package Bundle</a>        </div>    </div>    <div class="right-col">        <div class="app-title xl  mb-24 dark-blue">            Synchro        </div>        <div class="app-version lg mb-24">            Version            0.0.29.0        </div>        <div class="app-description mb-24">            Synchro Installer        </div>        <div class="mb-12 dlbuttons">            <a href='ms-appinstaller:?source=https://smartdrone-us.github.io/PulseS-Release/SynchroInstall.appinstaller'><button>Get the app <i class='ms-Icon ms-Icon--ChevronRight sm'></i></button></a>        </div>        <div class="mb-24">            <a href="https://go.microsoft.com/fwlink/?linkid=870616">                Troubleshoot installation            </a>        </div>        <div class="mb-28 lg">            Application Information        </div>        <div class="info-table">            <div class="info-row">                <div class="key">                    Version                </div>                <div class="value">                    0.0.29.0                </div>            </div>            <br/>            <div class="info-row">                <div class="key">                    Required Operating System                </div>                <div class="value">                    10.0.17763.0                </div>            </div>            <br/>            <div class="info-row">                <div class="key">                    Architectures                </div>                <div class="value">                    x86|x64                </div>            </div>            <br/>            <div class="info-row">                <div class="key">                    Publisher                </div>                <div class="value">                    drew                </div>            </div>        </div>    </div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Synchro</title>
+<!--
+  The download page for PulseS-Release, served from main:/docs on GitHub Pages.
+
+  This is a template. scripts/Publish-Release.ps1 renders it on every publish,
+  substituting the doubled-brace placeholders with that release's real version, asset URLs
+  and sizes, then commits the result as docs/index.html. Edit THIS file, never
+  the rendered page in PulseS-Release - the next publish overwrites that one.
+
+  It replaces the index.html Visual Studio generates. That page led with a
+  "Get the app" button pointing at an ms-appinstaller: URI, and Microsoft
+  disabled that URI scheme by default in Windows (MSRC, Dec 2023) after it was
+  abused to deliver malware. The button therefore does nothing on a current
+  machine, which left the two links that do work - the bundle and the
+  certificate - buried in a collapsed "Additional Links" section.
+
+  So the order here is deliberate: the certificate comes first, because Synchro
+  is signed with a self-signed certificate and Windows will refuse the bundle
+  outright until that certificate is trusted. Getting that wrong is the one way
+  a field install fails with a confusing error, so it is step one, not
+  troubleshooting.
+
+  Every asset URL is substituted statically at publish time rather than looked
+  up from the GitHub API at page load: the page then needs no scripting, cannot
+  be rate-limited, and can never advertise a version that disagrees with the
+  release it shipped alongside. The only JavaScript is the copy button, which
+  is a convenience and degrades to a visible, selectable command.
+-->
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: #0E1417;
+    color: #E7EDF0;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  .badge { width: 96px; height: 96px; display: block; margin: 0 auto 1.25rem; }
+  h1 { margin: 0; text-align: center; font-size: 2rem; letter-spacing: .02em; }
+  .ver {
+    margin: .4rem 0 2rem; text-align: center; color: #8DA2AD;
+    font-variant-numeric: tabular-nums;
+  }
+  .dl {
+    display: block; max-width: 22rem; margin: 0 auto;
+    padding: 1.05rem 1.5rem; border-radius: 999px;
+    background: linear-gradient(180deg, #F08521, #E25622);
+    color: #14100C; text-decoration: none; text-align: center;
+    font-size: 1.05rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  }
+  .dl:hover { filter: brightness(1.08); }
+  .dl.secondary {
+    margin-top: .75rem; background: none; color: #E7EDF0;
+    border: 1px solid rgba(255,255,255,.22); font-size: .95rem;
+  }
+  .dl.secondary:hover { filter: none; border-color: #F08521; color: #F0A85E; }
+  .dl:focus-visible { outline: 3px solid #F0A85E; outline-offset: 3px; }
+  .meta { margin: .85rem 0 0; text-align: center; color: #6F828C; font-size: .875rem; }
+  section { margin-top: 3rem; }
+  h2 {
+    margin: 0 0 .85rem; font-size: .8rem; font-weight: 700;
+    letter-spacing: .12em; text-transform: uppercase; color: #8DA2AD;
+  }
+  ol { margin: 0; padding-left: 1.35rem; color: #C4D2DA; }
+  li { margin-bottom: .55rem; }
+  .aside { margin: .9rem 0 0; color: #6F828C; font-size: .875rem; }
+  .callout {
+    margin: 0 0 1.15rem; padding: 1.15rem 1.35rem; border-radius: .75rem;
+    background: rgba(255,255,255,.05); border-left: 3px solid #E25622;
+    color: #DCE6EB;
+  }
+  .callout p { margin: 0; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .875em; color: #B9C8D1;
+  }
+  .cmd {
+    display: flex; gap: .5rem; align-items: flex-start;
+    margin: .9rem 0 0; padding: .8rem .9rem; border-radius: .5rem;
+    background: rgba(0,0,0,.35); border: 1px solid rgba(255,255,255,.08);
+  }
+  .cmd code {
+    flex: 1; white-space: pre-wrap; word-break: break-all;
+    font-size: .8125rem; line-height: 1.5; color: #C4D2DA;
+  }
+  .cmd button {
+    flex: none; padding: .3rem .6rem; border-radius: .35rem;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15);
+    color: #C4D2DA; font: inherit; font-size: .75rem; cursor: pointer;
+  }
+  .cmd button:hover { background: rgba(255,255,255,.14); color: #E7EDF0; }
+  details { margin-top: .9rem; }
+  summary { cursor: pointer; color: #8DA2AD; font-size: .9rem; }
+  summary:hover { color: #E7EDF0; }
+  details ul { margin: .8rem 0 0; padding-left: 1.35rem; color: #C4D2DA; font-size: .9rem; }
+  details li { margin-bottom: .4rem; }
+  a { color: #F0A85E; }
+  footer {
+    margin-top: 3rem; padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,.08);
+    color: #6F828C; font-size: .875rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="badge" src="icon.png" alt="">
+  <h1>Synchro</h1>
+  <p class="ver">Version 0.0.29.0</p>
+
+  <a class="dl" href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/SynchroInstall_0.0.29.0_x86_x64.cer" download>1 &middot; Download Certificate</a>
+  <a class="dl secondary" href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/SynchroInstall_0.0.29.0_x86_x64.msixbundle" download>2 &middot; Download Installer</a>
+  <p class="meta">
+    Take them in that order &mdash; the certificate has to be trusted before
+    Windows will accept the installer.<br>
+    Certificate 768 bytes &middot; installer 159.5 MB &middot; Windows 10 1809 or newer
+  </p>
+
+  <section>
+    <h2>Step 1 &mdash; Trust the certificate</h2>
+    <div class="callout">
+      <p>
+        Synchro is signed with our own self-signed certificate rather than a
+        purchased one. Windows will refuse to install the app until that
+        certificate is trusted, so do this first &mdash; skipping it is what
+        produces the vague &ldquo;this app package is not signed with a trusted
+        certificate&rdquo; failure.
+      </p>
+    </div>
+    <ol>
+      <li>Download the certificate above, then find it in your <strong>Downloads</strong> folder.</li>
+      <li>Right-click <code>SynchroInstall_0.0.29.0_x86_x64.cer</code> and choose <strong>Install Certificate</strong>.</li>
+      <li>For Store Location pick <strong>Local Machine</strong>, then <strong>Next</strong>. Windows will ask for administrator permission &mdash; approve it.</li>
+      <li>Choose <strong>Place all certificates in the following store</strong>, click <strong>Browse</strong>, and select <strong>Trusted People</strong>. Not Personal, and not Trusted Root &mdash; Windows only accepts Trusted People here.</li>
+      <li>Click <strong>Next</strong>, then <strong>Finish</strong>. You should see &ldquo;The import was successful.&rdquo;</li>
+    </ol>
+    <p class="aside">
+      This is a one-time step per computer. Every Synchro release is signed with
+      the same certificate, so later updates install without repeating it.
+    </p>
+    <details>
+      <summary>Rather do it from PowerShell?</summary>
+      <p class="aside">
+        Open PowerShell as Administrator (right-click Start &rarr; Terminal
+        (Admin)) and run:
+      </p>
+      <div class="cmd">
+        <code id="ps-cmd">Import-Certificate -FilePath &quot;$HOME\Downloads\SynchroInstall_0.0.29.0_x86_x64.cer&quot; -CertStoreLocation Cert:\LocalMachine\TrustedPeople</code>
+        <button type="button" id="copy-btn">Copy</button>
+      </div>
+    </details>
+  </section>
+
+  <section>
+    <h2>Step 2 &mdash; Install Synchro</h2>
+    <ol>
+      <li>Download the installer above. It is a large file &mdash; give it time on a slow connection.</li>
+      <li>Double-click <code>SynchroInstall_0.0.29.0_x86_x64.msixbundle</code>.</li>
+      <li>In the App Installer window that opens, click <strong>Install</strong>. If you already have Synchro, the button reads <strong>Update</strong> and your settings are kept.</li>
+    </ol>
+    <details>
+      <summary>The installer says a required component is missing</summary>
+      <p class="aside">
+        The bundle expects the Windows App Runtime and VC++ libraries, which
+        Windows normally fetches on its own. On a machine without Microsoft
+        Store access it cannot, and the install stops. Either use the
+        <a href="SynchroInstall.appinstaller" download>App Installer manifest</a>,
+        which pulls these in automatically, or install them by hand first:
+      </p>
+      <ul>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/Microsoft.VCLibs.x64.14.00.Desktop.appx" download>Microsoft.VCLibs.x64.14.00.Desktop.appx</a> &mdash; 6.4 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/Microsoft.VCLibs.x64.14.00.appx" download>Microsoft.VCLibs.x64.14.00.appx</a> &mdash; 875.6 KB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/Microsoft.VCLibs.x86.14.00.Desktop.appx" download>Microsoft.VCLibs.x86.14.00.Desktop.appx</a> &mdash; 5.8 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/Microsoft.VCLibs.x86.14.00.appx" download>Microsoft.VCLibs.x86.14.00.appx</a> &mdash; 740.8 KB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/Microsoft.WindowsAppRuntime.2.x64.msix" download>Microsoft.WindowsAppRuntime.2.x64.msix</a> &mdash; 43.1 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.29.0/Microsoft.WindowsAppRuntime.2.x86.msix" download>Microsoft.WindowsAppRuntime.2.x86.msix</a> &mdash; 21.8 MB</li>
+      </ul>
+      <p class="aside">
+        Install the ones matching your Windows architecture &mdash; x64 on any
+        current machine &mdash; then run the installer again.
+      </p>
+    </details>
+  </section>
+
+  <footer>
+    Every file on this page comes from the
+    <a href="https://github.com/SmartDrone-US/PulseS-Release/releases/tag/v0.0.29.0">v0.0.29.0 release</a>, where you will also find the
+    full release notes for this version.
+  </footer>
+</main>
+
+<script>
+  (function () {
+    var btn = document.getElementById('copy-btn');
+    var cmd = document.getElementById('ps-cmd');
+    if (!btn || !cmd || !navigator.clipboard) return;
+    btn.addEventListener('click', function () {
+      navigator.clipboard.writeText(cmd.textContent).then(function () {
+        btn.textContent = 'Copied';
+        setTimeout(function () { btn.textContent = 'Copy'; }, 1600);
+      }).catch(function () {
+        // Clipboard blocked - the command is on screen and selectable anyway.
+      });
+    });
+  })();
+</script>
+</body>
+</html>
