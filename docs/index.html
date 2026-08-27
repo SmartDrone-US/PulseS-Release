@@ -114,10 +114,10 @@
 <main>
   <img class="badge" src="icon.png" alt="">
   <h1>Synchro</h1>
-  <p class="ver">Version 0.0.31.0</p>
+  <p class="ver">Version 0.0.32.0</p>
 
-  <a class="dl" href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/SynchroInstall_0.0.31.0_x86_x64.cer" download>1 &middot; Download Certificate</a>
-  <a class="dl secondary" href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/SynchroInstall_0.0.31.0_x86_x64.msixbundle" download>2 &middot; Download Installer</a>
+  <a class="dl" href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/SynchroInstall_0.0.32.0_x86_x64.cer" download>1 &middot; Download Certificate</a>
+  <a class="dl secondary" href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/SynchroInstall_0.0.32.0_x86_x64.msixbundle" download>2 &middot; Download Installer</a>
   <p class="meta">
     Take them in that order &mdash; the certificate has to be trusted before
     Windows will accept the installer.<br>
@@ -137,7 +137,7 @@
     </div>
     <ol>
       <li>Download the certificate above, then find it in your <strong>Downloads</strong> folder.</li>
-      <li>Right-click <code>SynchroInstall_0.0.31.0_x86_x64.cer</code> and choose <strong>Install Certificate</strong>.</li>
+      <li>Right-click <code>SynchroInstall_0.0.32.0_x86_x64.cer</code> and choose <strong>Install Certificate</strong>.</li>
       <li>For Store Location pick <strong>Local Machine</strong>, then <strong>Next</strong>. Windows will ask for administrator permission &mdash; approve it.</li>
       <li>Choose <strong>Place all certificates in the following store</strong>, click <strong>Browse</strong>, and select <strong>Trusted People</strong>. Not Personal, and not Trusted Root &mdash; Windows only accepts Trusted People here.</li>
       <li>Click <strong>Next</strong>, then <strong>Finish</strong>. You should see &ldquo;The import was successful.&rdquo;</li>
@@ -153,7 +153,7 @@
         (Admin)) and run:
       </p>
       <div class="cmd">
-        <code id="ps-cmd">Import-Certificate -FilePath "$HOME\Downloads\SynchroInstall_0.0.31.0_x86_x64.cer" -CertStoreLocation Cert:\LocalMachine\TrustedPeople</code>
+        <code id="ps-cmd">Import-Certificate -FilePath "$HOME\Downloads\SynchroInstall_0.0.32.0_x86_x64.cer" -CertStoreLocation Cert:\LocalMachine\TrustedPeople</code>
         <button type="button" id="copy-btn">Copy</button>
       </div>
     </details>
@@ -163,7 +163,7 @@
     <h2>Step 2 &mdash; Install Synchro</h2>
     <ol>
       <li>Download the installer above. It is a large file &mdash; give it time on a slow connection.</li>
-      <li>Double-click <code>SynchroInstall_0.0.31.0_x86_x64.msixbundle</code>.</li>
+      <li>Double-click <code>SynchroInstall_0.0.32.0_x86_x64.msixbundle</code>.</li>
       <li>In the App Installer window that opens, click <strong>Install</strong>. If you already have Synchro, the button reads <strong>Update</strong> and your settings are kept.</li>
     </ol>
     <details>
@@ -176,12 +176,12 @@
         which pulls these in automatically, or install them by hand first:
       </p>
       <ul>
-        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/Microsoft.VCLibs.x64.14.00.appx" download>Microsoft.VCLibs.x64.14.00.appx</a> &mdash; 875.6 KB</li>
-        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/Microsoft.VCLibs.x64.14.00.Desktop.appx" download>Microsoft.VCLibs.x64.14.00.Desktop.appx</a> &mdash; 6.4 MB</li>
-        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/Microsoft.VCLibs.x86.14.00.appx" download>Microsoft.VCLibs.x86.14.00.appx</a> &mdash; 740.8 KB</li>
-        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/Microsoft.VCLibs.x86.14.00.Desktop.appx" download>Microsoft.VCLibs.x86.14.00.Desktop.appx</a> &mdash; 5.8 MB</li>
-        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/Microsoft.WindowsAppRuntime.2.x64.msix" download>Microsoft.WindowsAppRuntime.2.x64.msix</a> &mdash; 43.1 MB</li>
-        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.31.0/Microsoft.WindowsAppRuntime.2.x86.msix" download>Microsoft.WindowsAppRuntime.2.x86.msix</a> &mdash; 21.8 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/Microsoft.VCLibs.x64.14.00.appx" download>Microsoft.VCLibs.x64.14.00.appx</a> &mdash; 875.6 KB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/Microsoft.VCLibs.x64.14.00.Desktop.appx" download>Microsoft.VCLibs.x64.14.00.Desktop.appx</a> &mdash; 6.4 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/Microsoft.VCLibs.x86.14.00.appx" download>Microsoft.VCLibs.x86.14.00.appx</a> &mdash; 740.8 KB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/Microsoft.VCLibs.x86.14.00.Desktop.appx" download>Microsoft.VCLibs.x86.14.00.Desktop.appx</a> &mdash; 5.8 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/Microsoft.WindowsAppRuntime.2.x64.msix" download>Microsoft.WindowsAppRuntime.2.x64.msix</a> &mdash; 43.1 MB</li>
+        <li><a href="https://github.com/SmartDrone-US/PulseS-Release/releases/download/v0.0.32.0/Microsoft.WindowsAppRuntime.2.x86.msix" download>Microsoft.WindowsAppRuntime.2.x86.msix</a> &mdash; 21.8 MB</li>
       </ul>
       <p class="aside">
         Install the ones matching your Windows architecture &mdash; x64 on any
@@ -192,7 +192,7 @@
 
   <footer>
     Every file on this page comes from the
-    <a href="https://github.com/SmartDrone-US/PulseS-Release/releases/tag/v0.0.31.0">v0.0.31.0 release</a>, where you will also find the
+    <a href="https://github.com/SmartDrone-US/PulseS-Release/releases/tag/v0.0.32.0">v0.0.32.0 release</a>, where you will also find the
     full release notes for this version.
   </footer>
 </main>
